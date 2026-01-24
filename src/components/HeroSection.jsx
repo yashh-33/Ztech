@@ -98,7 +98,7 @@ const HeroSection = () => {
                     
                     {/* Line 2: Gradient Text */}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 font-extrabold text-stroke block 
-                                     font-bold text-5xl sm:text-4xl lg:text-8xl xl:text-6xl mb-10">
+                    font-bold text-5xl sm:text-4xl lg:text-8xl xl:text-6xl mb-10">
                         Digital Journey
                     </span>
                 </h1>

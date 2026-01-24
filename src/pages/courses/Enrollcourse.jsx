@@ -80,7 +80,7 @@ const Enrollcourse = () => {
             className="mt-6 space-y-4"
           >
             {/* 🔑 YOUR ACCESS KEY */}
-            <input type="hidden" name="access_key" value="7b34693b-e9b3-4435-87f0-b85a1c5ae809" />
+            <input type="hidden" name="access_key" value="a7f37383-9935-4017-8aa4-aa2d0fdb05b9" />
 
             {/* OPTIONAL META */}
             <input type="hidden" name="subject" value="New Course Enrollment" />

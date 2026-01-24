@@ -11,7 +11,7 @@ const GetStarted = () => {
     const formData = new FormData(event.target);
 
     // 🔑 Web3Forms Access Key (yaha paste karna)
-    formData.append("access_key", "7b34693b-e9b3-4435-87f0-b85a1c5ae809");
+    formData.append("access_key", "a7f37383-9935-4017-8aa4-aa2d0fdb05b9");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

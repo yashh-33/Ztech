@@ -38,7 +38,7 @@ const WhyChooseSection = () => {
                             bg-gradient-to-br from-white to-orange-50"> {/* Soft pale orange gradient background */}
 
                 {/* Section Title and Subtitle */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Why Choose Perfection4U?</h2>
+                <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Why Choose ZTechware?</h2>
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-16 text-center">
                     We deliver excellence through expertise, innovation, and commitment to your success.
                 </p>

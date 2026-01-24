@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const AboutUsPage = () => {
   const heroBG =
@@ -54,23 +55,24 @@ const AboutUsPage = () => {
           </h2>
 
           <p className="text-gray-700 text-lg leading-8 max-w-4xl mx-auto mb-8">
-            Perfection U is one of the Best IT Training Institutes in Nagpur dedicated to
-            introducing new skills and talent into Nagpur’s IT sector. We are a proudly unique
-            company with services covering all levels of IT recruitment and skill development.
-            Since 2014 we have helped over 4000+ people launch their careers in Tech and Digital
-            industries with our blend of training and recruitment services.
+            ZTECH is one of Nagpur’s fast-growing IT training and digital solutions brands, focused on empowering students and professionals with industry-ready skills. 
+            We believe learning should be practical, future-focused, and aligned with real-world technology demands.
+            Since our journey began, we’ve helped thousands of learners step confidently into careers across software development, mobile applications, web technologies, UI/UX design, and digital skills. 
+            Our programs are designed by industry experts and emphasize hands-on projects, mentorship, and career guidance.
           </p>
-
-          <button className="bg-orange-600 hover:bg-orange-700 text-white px-12 py-3 rounded-lg font-bold shadow-lg transition">
-            Join Now
-          </button>
+           <Link to="/enroll-course">
+             <button className="bg-orange-600 hover:bg-orange-700 text-white px-12 py-3 rounded-lg font-bold shadow-lg transition">
+               Join Now
+             </button>
+          </Link>
+          
         </div>
       </div>
 
       {/* ⭐ NEW - Your Journey Section */}
       <div className="max-w-7xl mx-auto px-4 mt-24 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-orange-600 drop-shadow-sm">
-          Your Journey at Ztech
+          Your Journey at Ztechware
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
@@ -170,12 +172,13 @@ const AboutUsPage = () => {
       {/* Why Perfection U */}
       <div className="max-w-6xl mx-auto px-4 mt-24">
         <h2 className="text-4xl font-extrabold text-center mb-10 text-orange-700">
-          Why Perfection U ?
+          Why Ztechware ?
         </h2>
         <p className="text-gray-700 text-lg leading-9 text-justify bg-white p-10 rounded-3xl shadow-lg">
-          Perfection U provides industry-driven IT education with hands-on training,
-          projects, soft skills & interview preparation. Our aim is to make students
-          confident, skilled and job-ready for the Tech industry.
+          ZTECH delivers industry-driven IT training with a strong focus on hands-on learning, real projects, soft skills, and interview prep.
+          We don’t believe in boring theory — we believe in building skills that actually get you hired.
+          Our mission is simple:
+          Make you confident. Make you skilled. Make you job-ready.
         </p>
       </div>
 
@@ -238,16 +241,20 @@ const AboutUsPage = () => {
             className="flex-1 border rounded-xl px-2 lg:py-5 text-lg outline-none shadow"
           />
          <div className="call">
-           <button className="bg-green-600 hover:bg-green-700 lg:py-6 lg:px-3 px-2 rounded-xl text-white font-bold flex shadow">
-            📞 Call Now
-          </button>
+           <a
+             href="tel:+919172101122"
+             className="bg-green-600 hover:bg-green-700 lg:py-6 lg:px-3 px-2 rounded-xl text-white font-bold flex shadow items-center justify-center"
+           >
+             📞 Call Now
+           </a>
          </div>
+
         </div>
       </div>
 
       {/* Footer */}
       <div className="py-10 text-center text-gray-500 text-md font-semibold">
-        © 2025 Perfection U | All Rights Reserved
+        © 2026 Ztechware | All Rights Reserved
       </div>
     </div>
   );

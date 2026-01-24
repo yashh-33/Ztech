@@ -34,7 +34,7 @@ const InputField = ({ icon: Icon, type, placeholder, name, halfWidth = false, is
 
 // ---------- Contact Info ----------
 const ContactInfoBlock = ({ icon: Icon, title, content, iconBg }) => (
-    <div className="flex items-start p-4 bg-white rounded-xl shadow-md border border-gray-100">
+    <div className="flex   p-4 bg-white rounded-xl shadow-md border border-gray-100">
         <div className={`w-10 h-10 rounded-lg flex items-center justify-center mr-4 ${iconBg} text-white`}>
             <Icon className="w-5 h-5" />
         </div>
@@ -132,36 +132,34 @@ const ContactFormSection = () => {
                         </div>
 
                         {/* ---------- CONTACT INFO ---------- */}
-                        <div className="space-y-6">
+                        <div className="space-y-6 ">
                             <ContactInfoBlock
                                 icon={PhoneCall}
                                 title="Call Us"
-                                content="Available Mon-Sat, 9 AM - 7 PM<br/>+91 8600 028 849"
+                                content="Available Mon-Sat, 9 AM - 7 PM<br/>+91 9172101122"
                                 iconBg="bg-orange-500"
                             />
 
                             <ContactInfoBlock
                                 icon={ContactMailIcon}
                                 title="Email Us"
-                                content="Quick response within 24 hours<br/>info@perfection4u.com"
+                                content="Quick response within 24 hours <br/> ztechwareindia@gmail.com"
                                 iconBg="bg-blue-500"
                             />
 
                             <ContactInfoBlock
                                 icon={MapPin}
                                 title="Visit Office"
-                                content="Plot No 197, Medical College Road,<br/>Nagpur - 440024"
+                                content="Pl No 197, Above Rudra Optical,<br/>Near Haldiram,Medical Square Nagpur - 440024"
                                 iconBg="bg-green-500"
                             />
 
-                            <div className="pt-4">
+                            <div className="pt-4 ">
                                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Follow Us</h3>
-                                <div className="flex gap-4">
+                                <div className="flex gap-5 lg:ml-45 ml-15">
                                     <a href="#" className="w-10 h-10 rounded-lg bg-blue-700 text-white flex items-center justify-center"><Linkedin /></a>
-                                    <a href="#" className="w-10 h-10 rounded-lg bg-blue-400 text-white flex items-center justify-center"><Twitter /></a>
                                     <a href="#" className="w-10 h-10 rounded-lg bg-pink-600 text-white flex items-center justify-center"><Instagram /></a>
                                     <a href="#" className="w-10 h-10 rounded-lg bg-red-600 text-white flex items-center justify-center"><Youtube /></a>
-                                    <a href="#" className="w-10 h-10 rounded-lg bg-gray-800 text-white flex items-center justify-center"><Dribbble /></a>
                                 </div>
                             </div>
                         </div>
