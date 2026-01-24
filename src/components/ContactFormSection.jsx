@@ -57,7 +57,7 @@ const ContactFormSection = () => {
         setResult("Sending...");
 
         const formData = new FormData(event.target);
-        formData.append("access_key", "7b34693b-e9b3-4435-87f0-b85a1c5ae809"); // 🔑 PASTE KEY
+        formData.append("access_key", "a7f37383-9935-4017-8aa4-aa2d0fdb05b9"); // 🔑 PASTE KEY
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
